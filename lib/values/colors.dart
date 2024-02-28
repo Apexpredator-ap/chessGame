@@ -1,4 +1,4 @@
 import 'package:flutter/material.dart';
 
-var backgroundcolor = Colors.grey[800];
-var foregroundcolor = Colors.grey[500];
+var backgroundcolor = Colors.brown[700];
+var foregroundcolor = Colors.brown[400];

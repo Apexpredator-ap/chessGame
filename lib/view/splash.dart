@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import 'game_board.dart';
 
@@ -41,7 +42,7 @@ class _SplashPageState extends State<SplashPage> {
             SizedBox(height: 20),
             Text(
               "CHESSMATE",
-              style: TextStyle(
+              style: GoogleFonts.caveat(
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
               ),

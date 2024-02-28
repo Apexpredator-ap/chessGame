@@ -4,7 +4,8 @@ import 'package:chess_game/components/pieces.dart';
 import 'package:chess_game/values/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
+import 'package:google_fonts/google_fonts.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../components/dead_piece.dart';
 import '../components/square.dart';
 import '../helper/helper_methods.dart';
@@ -624,7 +625,8 @@ class _GameBoardState extends State<GameBoard> {
 
           /// Game Status
 
-          Text(checkStatus ? "CHECK!!!" : ""),
+          Text(checkStatus ? "CHECK !!!" : "",style:GoogleFonts.almendraSc(fontSize: 20,fontWeight: FontWeight.bold,color:Colors.grey),),
+
 
           Expanded(
             flex: 3,
@@ -671,6 +673,8 @@ class _GameBoardState extends State<GameBoard> {
                       ))),
         ],
       ),
+
     );
+
   }
 }
