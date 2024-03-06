@@ -60,6 +60,7 @@ class _GameBoardState extends State<GameBoard> {
     super.initState();
   }
 
+
   /// Intialize board
 
   void _initializedBoard() {
